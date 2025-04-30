@@ -1,82 +1,66 @@
-# 🌦️ React Weather App by PK
+# Weather App
 
-A clean and interactive weather application built with **React** and **Material UI**, powered by the **OpenWeatherMap API**. Users can search for any city to get real-time weather details in a stylish card layout.
+Welcome to the Weather App repository! This project is a web application that provides real-time weather updates for any location. It utilizes HTML, CSS, and JavaScript to deliver a user-friendly interface and fetches data using the OpenWeatherMap API.
 
-![Weather App Screenshot](https://media.istockphoto.com/id/1332108668/photo/heatwave-with-warm-thermometer-and-fire-global-warming-and-extreme-climate-environment.jpg?s=1024x1024&w=is&k=20&c=QhEOtUgcu5E94FWjghUGyMZMUSF3DckCOvL7OqfgAVE=)
+## Features
 
----
+- **Live Weather Data**: Get up-to-date weather information for your current location or search for any city worldwide.
+- **5 Days Forecast**: You Can See your city 5 days forecast 
+- **Explore Section**: You Can See Many Random City Weather On Explore Section
+- **Add More Citys**: You Can Add More Citys 
 
-## 🚀 Features
+### Technologies Used 
 
-- 🌍 Search weather by city name
-- ☁️ Live weather data from OpenWeatherMap API
-- 🌡️ Displays temperature, humidity, min/max temperature, feels-like temperature
-- 🖼️ Dynamic image and icon updates based on weather
-- 🎨 Material UI components with custom styling
+- **Frontend**: HTML, CSS, JAVASCRIPT
+- **API**: [OpenWeatherMap](https://openweathermap.org/)
+- **Icons**: [Fontawesome](https://fontawesome.com/)
 
----
+### Additional information 
 
-## 🛠️ Tech Stack
+- **To get name of the location (city name or area name) by using longitude and latitude** :- 
+https://openweathermap.org/api/geocoding-api
 
-- **React**
-- **Material UI**
-- **OpenWeatherMap API**
-- **CSS**
-- **React Hooks** (`useState`)
+- **To get current location weather** :- 
+https://openweathermap.org/current
 
----
+- **To get 5 day forecast** :-  https://openweathermap.org/forecast5
 
-## 🌐 API Integration
+## Getting Started
 
-This project uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch live weather data.
+To get a local copy up and running, follow these simple steps.
 
-### API Endpoint:
-https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
+### Prerequisites
 
-> ⚠️ **Note:** Replace the API key in `SearchBox.js` with your own OpenWeatherMap API key.
+- A modern web browser.
+- An API key from [OpenWeatherMap Api](https://home.openweathermap.org/api_keys)
 
----
+### Installation
 
-## 📁 Project Structure
-
-weather-app/ ├── src/ │ ├── App.js │ ├── WeatherApp.js │ ├── SearchBox.js │ ├── InfoBox.js │ ├── SearchBox.css │ ├── InfoBox.css ├── public/ ├── package.json └── README.md
-
-
-
----
-
-## 🧑‍💻 Getting Started
-
-## 1. Clone the Repository
-
-## bash
-git clone [https://github.com/your-username/weather-app.git](https://github.com/pradeepkumar823/Weather-App.git)
-cd weather-app
----
-## Install Dependencies
+1. Clone the repository:
+```sh
+ git clone https://github.com/pradeepkumar823/Weather-App.git
+```
+2. Install Dependencies:
+```sh
 npm install
+```
+3. Navigate to the project directory:
+```sh 
+cd weather-app
+```
+4. Change API key for all the js files
+```javascript
+let apiKey = "Your API Key";
+``` 
+5. Open `index.html` in your browser to view the project.
 
----  
+### Usage
 
- 
-## Start the App
-npm start
-The app will run locally at http://localhost:3000.
+To use the Weather App, simply enter the name of the city in the search bar and press enter. The app will display the current weather conditions, including temperature, humidity, maxTemp , minTemp  and more.
 
----
-
-## REACT_APP_API_KEY=your_api_key_here
-## const API_KEY = process.env.REACT_APP_API_KEY;
-
-
-
-
-
-
-
-
-
-
-
-
-
+`
+Note :- For Best Experience See This Website on 400*860 
+`
+## Contact
+For any inquiries, reach out at [pksinghgolu76310@gmail.com].<br>
+GitHub: [@kaushalsahu07](https://github.com/pradeepkumar823).<br>
