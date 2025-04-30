@@ -1,12 +1,75 @@
-# React + Vite
+# 🌦️ React Weather App by PK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive weather application built with **React** and **Material UI**, powered by the **OpenWeatherMap API**. Users can search for any city to get real-time weather details in a stylish card layout.
 
-Currently, two official plugins are available:
+![Weather App Screenshot](https://media.istockphoto.com/id/1332108668/photo/heatwave-with-warm-thermometer-and-fire-global-warming-and-extreme-climate-environment.jpg?s=1024x1024&w=is&k=20&c=QhEOtUgcu5E94FWjghUGyMZMUSF3DckCOvL7OqfgAVE=)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌍 Search weather by city name
+- ☁️ Live weather data from OpenWeatherMap API
+- 🌡️ Displays temperature, humidity, min/max temperature, feels-like temperature
+- 🖼️ Dynamic image and icon updates based on weather
+- 🎨 Material UI components with custom styling
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Material UI**
+- **OpenWeatherMap API**
+- **CSS**
+- **React Hooks** (`useState`)
+
+---
+
+## 🌐 API Integration
+
+This project uses the [OpenWeatherMap API](https://openweathermap.org/current) to fetch live weather data.
+
+### API Endpoint:
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
+
+> ⚠️ **Note:** Replace the API key in `SearchBox.js` with your own OpenWeatherMap API key.
+
+---
+
+## 📁 Project Structure
+
+weather-app/ ├── src/ │ ├── App.js │ ├── WeatherApp.js │ ├── SearchBox.js │ ├── InfoBox.js │ ├── SearchBox.css │ ├── InfoBox.css ├── public/ ├── package.json └── README.md
+
+
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+
+npm install
+
+npm start
+
+REACT_APP_API_KEY=your_api_key_here
+
+const API_KEY = process.env.REACT_APP_API_KEY;
+
+
+
+
+
+
+
+
+
+
+
+
+
