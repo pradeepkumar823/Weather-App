@@ -63,4 +63,4 @@ Note :- For Best Experience See This Website on 400*860
 `
 ## Contact
 For any inquiries, reach out at [pksinghgolu76310@gmail.com].<br>
-GitHub: [@kaushalsahu07](https://github.com/pradeepkumar823).<br>
+GitHub: [pradeepkumar823](https://github.com/pradeepkumar823).<br>
