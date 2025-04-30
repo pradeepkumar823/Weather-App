@@ -49,17 +49,20 @@ weather-app/ ├── src/ │ ├── App.js │ ├── WeatherApp.js │
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/weather-app.git
+## bash
+git clone [https://github.com/your-username/weather-app.git](https://github.com/pradeepkumar823/Weather-App.git)
 cd weather-app
 
+## Install Dependencies
 npm install
 
+## Start the App
 npm start
+The app will run locally at http://localhost:3000.
 
-REACT_APP_API_KEY=your_api_key_here
+## REACT_APP_API_KEY=your_api_key_here
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+## const API_KEY = process.env.REACT_APP_API_KEY;
 
 
 
