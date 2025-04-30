@@ -28,7 +28,7 @@ A clean and interactive weather application built with **React** and **Material 
 
 ## 🌐 API Integration
 
-This project uses the [OpenWeatherMap API](https://openweathermap.org/current) to fetch live weather data.
+This project uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch live weather data.
 
 ### API Endpoint:
 https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
